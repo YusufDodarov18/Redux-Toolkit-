@@ -84,9 +84,9 @@ useEffect(()=>{
         <Box className="space-y-3 max-h-96 overflow-y-auto">
           {todoList.filter(e=>{
             if(status==="Active"){
-              return e.completed===true
-            }else if(status==="InActive"){
               return e.completed===false
+            }else if(status==="InActive"){
+              return e.completed===true
             }else{
               return e
             }
